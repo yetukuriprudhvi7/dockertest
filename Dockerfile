@@ -1,6 +1,6 @@
 FROM node:20
 workdir /app
-copy package.js .
+copy package.json .
 copy server.js .
 run npm install 
 cmd ["node","server.js"]
