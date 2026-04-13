@@ -1,5 +1,5 @@
 ARG : version
-FROM node:${version:-20}
+FROM node:20.19.5-alphine3.22
 WORKDIR /app
 COPY package.json .
 COPY server.js .
