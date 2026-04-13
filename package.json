@@ -2,11 +2,14 @@
   "name": "my-node-package",
   "version": "1.0.0",
   "description": "Sample Node.js package",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": ["node", "sample", "package"],
   "author": "Your Name",
   "license": "MIT"
+    "dependencies": {
+    "express": "^4.18.2"
+  }
 }
