@@ -7,5 +7,6 @@ run npm install
 
 From node:20.19.5-alpine3.22
 workdir /app1
+RUN addgroup -S prudhvi && adduser -S prudhvi -G prudhvi
 copy --from-build /app /app1
 cmd ["node", "server.js"]
